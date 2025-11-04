@@ -13,8 +13,6 @@
 This repository showcases my **academic, professional, and self-learning projects** in **Machine Learning, NLP, and Software Engineering**.  
 All projects are implemented end-to-end — from data ingestion and model training to backend automation and deployment.
 
-> ⚠️ Data used in these projects is for demonstration and learning purposes only.
-
 ---
 
 ## 🧠 Featured Projects  
