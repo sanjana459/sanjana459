@@ -4,7 +4,7 @@
 🎓 Master's student in Computer Science at the **University of Massachusetts Amherst**  
 💡 Passionate about **AI, NLP, and backend systems that scale**  
 🧠 Experienced in **FastAPI, Transformers, Docker, and Database Design**  
-🌐 Portfolio: [for-loop-and-beyond.vercel.app](https://for-loop-and-beyond.vercel.app)  
+🌐 Website: [for-loop-and-beyond.vercel.app](https://for-loop-and-beyond.vercel.app)  
 📫 Email: [sanjana.gurrappagaru@gmail.com](mailto:sanjana.gurrappagaru@gmail.com)  
 
 ---
@@ -112,7 +112,7 @@ A database-driven application to manage food ordering, billing, and dining opera
 📧 **Email:** [sanjana.gurrappagaru@gmail.com](mailto:sanjana.gurrappagaru@gmail.com)  
 🔗 **LinkedIn:** [linkedin.com/in/sanjana-gurrappagaru](https://www.linkedin.com/in/sanjana-gurrappagaru-949878243/?trk=opento_sprofile_topcard)  
 💻 **GitHub:** [github.com/sanjana459](https://github.com/sanjana459)  
-🌐 **Portfolio:** [for-loop-and-beyond.vercel.app](https://for-loop-and-beyond.vercel.app)  
+🌐 **Website:** [for-loop-and-beyond.vercel.app](https://for-loop-and-beyond.vercel.app)  
 
 ---
 
