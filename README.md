@@ -111,9 +111,9 @@ A database-driven application to manage food ordering, billing, and dining opera
 ## 📫 Let’s Connect  
 📧 **Email:** [sanjana.gurrappagaru@gmail.com](mailto:sanjana.gurrappagaru@gmail.com)  
 🔗 **LinkedIn:** [linkedin.com/in/sanjana-gurrappagaru](https://www.linkedin.com/in/sanjana-gurrappagaru-949878243/?trk=opento_sprofile_topcard)  
-💻 **GitHub:** [github.com/sanjana459](https://github.com/sanjana459)  
+💻 **GitHub:** [github.com/sanjana459](https://github.com/sanjana459?tab=repositories)  
 🌐 **Website:** [for-loop-and-beyond.vercel.app](https://for-loop-and-beyond.vercel.app)  
 
 ---
 
-⭐ *If you found my work helpful or interesting, consider starring this repository to support it!*  
+⭐ *Every star feels like a little high five 🤍 thanks for cheering me on* ✨
