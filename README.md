@@ -9,102 +9,96 @@
 
 ---
 
-## 🧭 About This Repository  
-This repository showcases my **academic, professional, and self-learning projects** in **Machine Learning, NLP, and Software Engineering**.  
-All projects are implemented end-to-end — from data ingestion and model training to backend automation and deployment.
+## 🧭 About This Repository
+
+This repository highlights my **software engineering, backend, and data platform projects** across academic and professional work.  
+My focus is on building reliable backend services, asynchronous processing systems, and database-driven applications with strong validation, performance, and reliability safeguards.
 
 ---
 
-## 🧠 Featured Projects  
+## 💼 Professional Experience
 
-### 🔹 **VidTalk Enterprise | JETA Software Pvt Ltd**
-**Role:** Backend & ML Engineer  
-**Duration:** July 2022 – June 2024  
+### 🔹 **Software Engineer | JETA Software**
+**Duration:** May 2022 – June 2024  
 
-**Overview:**  
-Built the backend and ML pipelines for **VidTalk Enterprise**, an AI system that enables users to query videos conversationally — upload → transcribe → understand → retrieve → answer.
+**Scope:** Backend platform and async processing systems for large media and data workflows.
 
 **Key Contributions:**
-- Developed **asynchronous ML pipelines** using FastAPI, Celery, and Redis for large-scale video uploads and background tasks, reducing latency from **5 min → 2 s**.  
-- Integrated **WhisperX** for speech recognition and diarization, achieving ~95 % word alignment accuracy.  
-- Built a **Retrieval-Augmented Generation (RAG)** framework using **SentenceTransformers** and **ChromaDB**, improving retrieval accuracy by ~30 %.  
-- Optimized inference with **vLLM** and **quantized LLaMA 3 (7B)**, cutting GPU memory use by 35 % while maintaining sub-2 s response times.  
-- Enhanced observability with **Structlog** and **OpenTelemetry**, reducing debugging time by 40 %.  
-- Automated deployment via **Docker Compose**, **Pytest**, and **GitHub Actions** for reproducible, production-ready builds.  
-- Implemented secure access management with **JWT authentication** and **RBAC**, ensuring multi-tenant data isolation.
 
-**Stack:**  
-`Python`, `FastAPI`, `Celery`, `Redis`, `PostgreSQL`, `ChromaDB`, `SentenceTransformers`, `WhisperX`, `vLLM`, `LLaMA 3`, `Docker`, `OpenTelemetry`
+- Developed Python backend services using FastAPI for video ingestion, metadata management, and transcript retrieval across multi-stage processing workflows handling thousands of media records per day.  
+- Built asynchronous processing pipelines using Celery and Redis to execute long-running workloads outside request paths, reducing user-facing API latency from minutes to ~2–3 seconds under concurrent load.  
+- Implemented job lifecycle tracking, bounded retry policies, and idempotent execution safeguards, reducing duplicate background processing by ~40% and improving workflow reliability.  
+- Optimized PostgreSQL queries through targeted indexing and batch access patterns, improving hot-path read performance by ~30–50% and maintaining sub-100 ms response times.  
+- Added structured logging, tracing, and metrics monitoring to improve observability, reducing cross-service debugging time by ~30% and adding timeout and fallback safeguards for external dependencies.
+
+**Core Stack:**  
+`Python`, `FastAPI`, `Celery`, `Redis`, `PostgreSQL`, `Async Processing`, `Structured Logging`
 
 ---
 
-### 🔹 **Real-Time Social Media Sentiment Analysis | Varcons Technologies Pvt Ltd**
-**Role:** Machine Learning Intern  
+### 🔹 **Software Engineering Intern | Varcons Technologies**
 **Duration:** March 2022 – May 2022  
 
-**Overview:**  
-Built a real-time sentiment analysis system to track public opinion from **Twitter** and **news sources**, integrating APIs, transformer models, and automation for continuous monitoring.
+**Scope:** Backend ingestion and preprocessing pipelines for external data sources.
 
 **Key Contributions:**
-- Created **FastAPI pipelines** integrating **Tweepy** (Twitter API) and **NewsAPI** for real-time data ingestion (50K + posts).  
-- Implemented asynchronous fetching and error handling to ensure reliability during rate-limit conditions.  
-- Preprocessed text with **spaCy** and pandas for clean NLP inputs.  
-- Fine-tuned **DistilBERT** and **RoBERTa** for 3-way sentiment classification (positive | neutral | negative) achieving ~92 % F1-score.  
-- Built semantic clustering with **SentenceTransformers** and **ChromaDB**, automating daily refreshes using **APScheduler**.  
-- Produced structured JSON outputs for dashboard visualizations of trending topics and sentiment shifts.  
 
-**Stack:**  
-`Python`, `FastAPI`, `Tweepy`, `NewsAPI`, `DistilBERT`, `RoBERTa`, `SentenceTransformers`, `ChromaDB`, `spaCy`, `pandas`, `APScheduler`
+- Built FastAPI ingestion endpoints to collect and preprocess 50K+ social and news records from external APIs, adding schema validation and deduplication checks that reduced malformed and duplicate records by ~25–35%.  
+- Implemented batch preprocessing and cleaning workflows (normalization, field validation, reject handling), reducing pipeline failures from bad inputs by ~30% based on batch run logs.  
+- Integrated pretrained NLP inference services with timeout and fallback safeguards, maintaining >95% successful batch completion and contributing through code reviews and unit tests.
+
+**Core Stack:**  
+`Python`, `FastAPI`, `REST APIs`, `Batch Processing`, `Validation`, `Deduplication`
 
 ---
 
-### 🔹 **Campus Navigator | University of Massachusetts Amherst**
-**Overview:**  
-Developed a backend service to help students and visitors locate buildings and rooms across the UMass Amherst campus.
+## 🧠 Featured Projects
+
+### 🔹 **Campus Navigator — Backend API Platform**
+**Overview:** Backend API service for campus building and room lookup.
 
 **Key Contributions:**
-- Built **RESTful APIs** using **Node.js**, **Express.js**, and **TypeScript** with structured controllers and modular routes.  
-- Designed a **MongoDB schema** for 40 + campus buildings and user data with efficient referencing and indexing.  
-- Implemented chat-based query logic to handle natural language inputs like “Find Integrative Learning Center.”  
-- Optimized MongoDB queries for room lookups under 120 ms average latency.  
+
+- Built RESTful backend APIs using Node.js, Express.js, and TypeScript for campus navigation queries.  
+- Designed MongoDB schemas and indexing strategies for building and user data.  
+- Maintained <120 ms average query latency under concurrent access.
 
 **Stack:**  
-`Node.js`, `Express.js`, `TypeScript`, `MongoDB`, `Mongoose`, `Postman`, `Nodemon`, `dotenv`
+`Node.js`, `Express.js`, `TypeScript`, `MongoDB`
 
 ---
 
-### 🔹 **Canteen Management System | JSSATE, Bangalore**
-**Overview:**  
-A database-driven application to manage food ordering, billing, and dining operations efficiently for a college canteen.
+### 🔹 **Privacy-First Ad Targeting Platform (ZKC)**
+**Overview:** Backend system for privacy-preserving ad eligibility and selection.
 
 **Key Contributions:**
-- Designed and optimized a **MySQL database** with 9 relational tables (customers, shops, items, carts, orders).  
-- Implemented **stored procedures** for order placement and history retrieval reducing redundant queries by ~35 %.  
-- Achieved **< 100 ms query time** for multi-table joins under concurrent load.  
+
+- Implemented backend eligibility and interest-based selection flows in Node.js.  
+- Validated performance achieving ~22 ms verification latency and ~3 ms ad selection time.  
+- Supported compact cookie design (~560 bytes) without user tracking.
 
 **Stack:**  
-`MySQL`, `SQL`, `Stored Procedures`, `Database Design`
+`Node.js`, `Backend Logic`, `Performance Validation`
 
 ---
 
-## ⚙️ Technical Skills  
+## ⚙️ Technical Skills
 
 | Category | Technologies |
 |-----------|--------------|
-| **Programming Languages** | Python, SQL, TypeScript |
-| **Backend Frameworks** | FastAPI, Node.js, Express.js, Celery |
-| **Databases** | PostgreSQL, MySQL, MongoDB, ChromaDB, Redis |
-| **ML / NLP Tools** | WhisperX, SentenceTransformers, LLaMA 3, vLLM, DistilBERT, RoBERTa |
-| **Automation & DevOps** | Docker Compose, Pytest, GitHub Actions, APScheduler |
-| **Monitoring & Logging** | Structlog, OpenTelemetry, Prometheus |
-| **APIs & Data** | RESTful APIs, Tweepy, NewsAPI |
-| **Collaboration** | Git, GitHub, Jira |
+| **Programming** | Python, SQL, TypeScript |
+| **Backend & APIs** | FastAPI, Node.js, Express.js, REST APIs, Celery, Async Processing |
+| **Databases** | PostgreSQL, MongoDB, MySQL, Redis |
+| **Data Workflows** | Ingestion, Validation, Deduplication, Batch Processing |
+| **Testing & Debugging** | Pytest, Postman, Structured Logging |
+| **Tools & Workflow** | Git, GitHub, Docker, GitHub Actions, Jira |
 
 ---
 
-## 💬 How I Describe My Work  
-> “I build end-to-end ML and backend systems that connect data collection, model intelligence, and deployment into a smooth workflow.  
-> My focus is on making these systems fast, reliable, and easy to scale.”  
+## 💬 How I Describe My Work
+
+> I build backend and data processing systems that focus on correctness, reliability, and performance.  
+> My work emphasizes strong validation, async execution, and database efficiency in real-world service pipelines.
 
 ---
 
