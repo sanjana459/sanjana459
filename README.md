@@ -18,21 +18,23 @@ My focus is on building reliable backend services, asynchronous processing syste
 
 ## 💼 Professional Experience
 
-### 🔹 **Software Engineer | JETA Software**
+### 🔹 Software Engineer | JETA Software
 **Duration:** May 2022 – June 2024  
 
-**Scope:** Backend platform and async processing systems for large media and data workflows.
+**Scope:** Backend services and asynchronous processing infrastructure for video ingestion and transcript workflows deployed on AWS.
 
 **Key Contributions:**
 
-- Developed Python backend services using FastAPI for video ingestion, metadata management, and transcript retrieval across multi-stage processing workflows handling thousands of media records per day.  
-- Built asynchronous processing pipelines using Celery and Redis to execute long-running workloads outside request paths, reducing user-facing API latency from minutes to ~2–3 seconds under concurrent load.  
-- Implemented job lifecycle tracking, bounded retry policies, and idempotent execution safeguards, reducing duplicate background processing by ~40% and improving workflow reliability.  
-- Optimized PostgreSQL queries through targeted indexing and batch access patterns, improving hot-path read performance by ~30–50% and maintaining sub-100 ms response times.  
-- Added structured logging, tracing, and metrics monitoring to improve observability, reducing cross-service debugging time by ~30% and adding timeout and fallback safeguards for external dependencies.
+- Engineered scalable backend services using FastAPI for video ingestion and transcript processing workflows, integrating APIs into production pipelines running on AWS EC2, S3, and RDS.
+- Architected distributed background processing pipelines using Celery and Redis to offload heavy workloads from request paths, reducing API response times from minutes to ~2–3 seconds.
+- Improved pipeline reliability by implementing idempotent job execution, retry mechanisms, and lifecycle tracking, reducing duplicate processing by ~40%.
+- Optimized PostgreSQL queries and indexing strategies on AWS RDS, improving query performance by ~30–50% and maintaining sub-100 ms response latency.
+- Implemented structured logging with `job_id` and `request_id` correlation across API and worker services, enabling faster debugging and monitoring using AWS CloudWatch.
+- Developed REST APIs for job status tracking and transcript retrieval, enabling real-time visibility into asynchronous processing workflows.
+- Mentored a junior backend engineer through structured code reviews and pair-debugging sessions, accelerating onboarding to the asynchronous processing architecture.
 
 **Core Stack:**  
-`Python`, `FastAPI`, `Celery`, `Redis`, `PostgreSQL`, `Async Processing`, `Structured Logging`
+`Python`, `FastAPI`, `Celery`, `Redis`, `PostgreSQL`, `AWS (EC2, S3, RDS)`, `REST APIs`, `Async Processing`, `Structured Logging`
 
 ---
 
@@ -87,13 +89,15 @@ My focus is on building reliable backend services, asynchronous processing syste
 ## ⚙️ Technical Skills
 
 | Category | Technologies |
-|-----------|--------------|
-| **Programming** | Python, SQL, TypeScript |
-| **Backend & APIs** | FastAPI, Node.js, Express.js, REST APIs, Celery, Async Processing |
-| **Databases** | PostgreSQL, MongoDB, MySQL, Redis |
-| **Data Workflows** | Ingestion, Validation, Deduplication, Batch Processing |
-| **Testing & Debugging** | Pytest, Postman, Structured Logging |
-| **Tools & Workflow** | Git, GitHub, Docker, GitHub Actions, Jira |
+|----------|--------------|
+| Programming | Python, SQL, JavaScript |
+| Backend & APIs | FastAPI, Flask, Node.js, Express.js, REST APIs, Asynchronous Processing |
+| Databases | PostgreSQL, MySQL, MongoDB, Redis |
+| Data Engineering | Data Ingestion, Validation, Deduplication, Batch Processing |
+| Systems & Architecture | Distributed Systems, Task Queues (Celery), API Design, Caching |
+| Cloud & DevOps | AWS (EC2, S3, RDS, CloudWatch), Docker, CI/CD (GitHub Actions) |
+| Testing & Observability | Pytest, Postman, Structured Logging |
+| Tools & Workflow | Git, GitHub, Jira |
 
 ---
 
