@@ -2,8 +2,8 @@
 ## I'm **Sanjana Reddy Gurrappagaru**
 
 🎓 Master's student in Computer Science at the **University of Massachusetts Amherst**  
-💡 Passionate about **AI, NLP, and backend systems that scale**  
-🧠 Experienced in **FastAPI, Transformers, Docker, and Database Design**  
+💡 Passionate about building scalable backend systems and reliable data processing pipelines  
+🧠 Experienced with Python, FastAPI, distributed task queues (Celery + Redis), PostgreSQL, and AWS-based services  
 🌐 Website: [for-loop-and-beyond.vercel.app](https://for-loop-and-beyond.vercel.app)  
 📫 Email: [sanjana.gurrappagaru@gmail.com](mailto:sanjana.gurrappagaru@gmail.com)  
 
