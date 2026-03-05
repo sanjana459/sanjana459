@@ -36,19 +36,21 @@ My focus is on building reliable backend services, asynchronous processing syste
 
 ---
 
-### 🔹 **Software Engineering Intern | Varcons Technologies**
+### 🔹 Software Engineering Intern | Varcons Technologies
 **Duration:** March 2022 – May 2022  
 
-**Scope:** Backend ingestion and preprocessing pipelines for external data sources.
+**Scope:** Backend data ingestion pipelines and API-based integration workflows for external systems.
 
 **Key Contributions:**
 
-- Built FastAPI ingestion endpoints to collect and preprocess 50K+ social and news records from external APIs, adding schema validation and deduplication checks that reduced malformed and duplicate records by ~25–35%.  
-- Implemented batch preprocessing and cleaning workflows (normalization, field validation, reject handling), reducing pipeline failures from bad inputs by ~30% based on batch run logs.  
-- Integrated pretrained NLP inference services with timeout and fallback safeguards, maintaining >95% successful batch completion and contributing through code reviews and unit tests.
+- Built a Flask-based data integration service connecting external systems and APIs, implementing transformation and deduplication workflows to ensure reliable data ingestion.
+- Automated ingestion pipelines using APScheduler, processing ~35 daily records and reducing manual monitoring and intervention.
+- Developed REST APIs and structured logging mechanisms to monitor pipeline execution and failures, reducing false failure alerts by ~20%.
+- Implemented robust error handling and retry logic for external API calls, improving reliability of cross-system data ingestion.
+- Identified and resolved a boundary condition bug in the timestamp-based synchronization window, eliminating ~5 false failure logs per day and improving monitoring accuracy.
 
 **Core Stack:**  
-`Python`, `FastAPI`, `REST APIs`, `Batch Processing`, `Validation`, `Deduplication`
+`Python`, `Flask`, `REST APIs`, `APScheduler`, `Data Pipelines`, `Logging`, `Error Handling`
 
 ---
 
