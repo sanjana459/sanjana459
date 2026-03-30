@@ -4,7 +4,8 @@
 🎓 Master's student in Computer Science at the **University of Massachusetts Amherst**  
 💡 Passionate about building reliable data pipelines, cloud data warehouses, and real-time streaming systems  
 🧠 Experienced with Python, SQL, PySpark, dbt, Apache Airflow, Apache Kafka, AWS Redshift, and MongoDB    
-🌐 Website: [for-loop-and-beyond.vercel.app](https://for-loop-and-beyond.vercel.app)  
+🌐 Blog: [sqlwithsanjana.vercel.app](https://sqlwithsanjana.vercel.app/)  
+💬 Website: [sanjana-reddy-portfolio.vercel.app](https://sanjana-reddy-portfolio.vercel.app/)
 📫 Email: [sanjana.gurrappagaru@gmail.com](mailto:sanjana.gurrappagaru@gmail.com)  
 
 ---
