@@ -5,7 +5,7 @@
 💡 Passionate about building reliable data pipelines, cloud data warehouses, and real-time streaming systems  
 🧠 Experienced with Python, SQL, PySpark, dbt, Apache Airflow, Apache Kafka, AWS Redshift, and MongoDB    
 🌐 Blog: [sqlwithsanjana.vercel.app](https://sqlwithsanjana.vercel.app/)  
-💬 Website: [sanjana-reddy-portfolio.vercel.app](https://sanjana-reddy-portfolio.vercel.app/)
+💬 Website: [sanjana-reddy-portfolio.vercel.app](https://sanjana-reddy-portfolio.vercel.app/)  
 📫 Email: [sanjana.gurrappagaru@gmail.com](mailto:sanjana.gurrappagaru@gmail.com)  
 
 ---
