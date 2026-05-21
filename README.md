@@ -20,7 +20,7 @@ My focus is on building reliable ETL/ELT pipelines, real-time streaming systems,
 ## 💼 Professional Experience
  
 ### 🔹 Data Engineer | JETA Software
-**Duration:** May 2022 – June 2024
+**Duration:** May 2021 – June 2024
  
 **Scope:** End-to-end data infrastructure for two regulated financial sector clients — an insurance company ETL pipeline and a financial analytics cloud data warehouse — deployed on AWS.
  
@@ -39,7 +39,7 @@ My focus is on building reliable ETL/ELT pipelines, real-time streaming systems,
 ---
  
 ### 🔹 Data Engineer Intern | Varcons Technologies
-**Duration:** March 2022 – May 2022
+**Duration:** March 2021 – May 2021
  
 **Scope:** Real-time data pipeline infrastructure for a healthcare NLP research initiative — Kafka-based ingestion, MongoDB document storage, and automated data quality validation.
  
