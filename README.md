@@ -40,7 +40,7 @@ My focus is on building production-grade backend systems, REST APIs, real-time e
 ---
 
 ### 🔹 Software Developer Intern | Varcons Technologies
-**Duration:** March 2021 – May 2021
+**Duration:** March 2022 – May 2022
 
 **Scope:** Backend data engineering for a Healthcare platform, Python-based ingestion pipelines, PostgreSQL schema design, and API documentation.
 
