@@ -20,7 +20,7 @@ My focus is on building production-grade backend systems, REST APIs, real-time e
 ## 💼 Professional Experience
 
 ### 🔹 Software Developer | JETA Software
-**Duration:** May 2021 – June 2024
+**Duration:** May 2022 – June 2024
 
 **Scope:** Full-stack backend engineering across Agriculture, Retail, Financial, Healthcare, and Education domain clients — building APIs, chatbots, microservices, and data systems on AWS.
 
